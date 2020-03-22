@@ -1,1 +1,6 @@
-<div class="loader">Direct</div>
+<div>
+    <li ng-repeat="item in found">
+        ({{item.short_name}}) {{item.name}}<button ng-click="remove($index)">Not this one</button>
+    </li>
+    <div class="error" ng-if="found.length===0">Nothing Found</div>
+</div>
