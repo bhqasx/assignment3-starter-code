@@ -9,7 +9,7 @@
         var ddo = {
             //由于templateUrl要求从server提供template,懒得搭建server,所以下面直接用template而不是templateUrl
             //template: '<div><li ng-repeat="item in found">({{item.short_name}}) {{item.name}}<button ng-click="remove($index)">Not this one</button></li><div class="error" ng-if="found.length===0">Nothing Found</div></div>',  
-            templateUrl: 'loader/itemsloaderindicator.template.html',
+            templateUrl: 'https://bhqasx.github.io/assignment3-starter-code/loader/itemsloaderindicator.template.html',
             scope: {
                 remove: '=',
                 found: '='
